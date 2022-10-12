@@ -11,6 +11,7 @@ const Statistics = () => {
 
         return (
         <div className='mt-20'>
+            <h1 className='text-center text-3xl font-bold text-green-500 mb-16'>Line Chart Of Topics</h1>
         <ResponsiveContainer  width="100%" height={500}>
         <LineChart
 
@@ -32,7 +33,7 @@ const Statistics = () => {
         </LineChart>    
         </ResponsiveContainer>     
         
- 
+        
         </div>
     );
 };

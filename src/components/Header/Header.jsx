@@ -9,18 +9,20 @@ const Header = () => {
   fluid={true}
   rounded={true}
 >
-  <Navbar.Brand to="/">
-    <img
+  <NavLink to="/">
+<div className='flex'>
+<img
       src="https://img.freepik.com/premium-vector/quiz-logo-with-speech-bubble-symbols-concept-questionnaire-show-sing-quiz-button-question-competition-exam-interview-modern-emblem_180786-72.jpg?w=740"
       className="mr-3 h-6 sm:h-9"
       alt="Flowbite Logo"
     />
 
-<span className="self-center whitespace-nowrap text-2xl font-bold  text-orange-500">
+<span className="self-center whitespace-nowrap text-2xl font-bold  text-rose-500">
       QuizHuntz
     </span>
+</div>
 
-  </Navbar.Brand>
+  </NavLink>
   <Navbar.Toggle />
   <Navbar.Collapse>
     <NavLink
