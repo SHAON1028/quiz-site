@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import ErrorPage from "../components/ErrorPage";
-import Root from "../components/Header/Root";
+import Root from "../components/Root";
 import Home from "../components/Home/Home";
 import { topicsData } from "../Loader/Data";
 
