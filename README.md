@@ -12,8 +12,7 @@ To get a local copy of the code, clone it using git:
 
 ```sh
 https://github.com/programming-hero-web-course2/b6-quiz-crackerz-SHAON1028.git
-npm i
-node app
+
 ```
 Install dependencies:
 
