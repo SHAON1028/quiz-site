@@ -24,3 +24,7 @@ Now, you can start a local web server by running:
 ```sh
 npm start
 ```
+Netlify Link:
+```sh
+https://extraordinary-capybara-611a4d.netlify.app/
+```
