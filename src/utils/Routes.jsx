@@ -5,6 +5,7 @@ import Home from "../components/Home/Home";
 import { topicsData } from "../Loader/Data";
 import Blog from "../components/Blog/Blog";
 import Topics from "../components/Topics/Topics";
+import Statistics from "../components/Statistics/Statistics";
 
 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
          path: "/topics",
          element:<Topics></Topics>
          
+       },
+       {
+         path: "/statistics",
+         element:<Statistics></Statistics>,
        },
     ]
    }
