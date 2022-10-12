@@ -4,6 +4,7 @@ import Root from "../components/Root";
 import Home from "../components/Home/Home";
 import { topicsData } from "../Loader/Data";
 import Blog from "../components/Blog/Blog";
+import Topics from "../components/Topics/Topics";
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
        {
          path: "/blogs",
          element:<Blog></Blog>
+         
+       },
+       {
+         path: "/topics",
+         element:<Topics></Topics>
          
        },
     ]
